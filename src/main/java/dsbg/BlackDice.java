@@ -1,0 +1,47 @@
+package dsbg;
+
+import java.util.Random;
+
+public class BlackDice {
+
+	// Example Value list: 1,6,4,2,2,1,5
+
+	public int roll() {
+
+		Random rand = new Random();
+
+		int dicevalue = rand.nextInt(6);
+		dicevalue = dicevalue + 1;
+
+		int numberOfSwords = 0;
+
+		if (dicevalue == 1) {
+			numberOfSwords = 0;
+		}
+
+		if (dicevalue == 2 || dicevalue == 3 || dicevalue == 4) {
+			numberOfSwords = 1;
+		}
+
+		if (dicevalue == 5 || dicevalue == 6) {
+			numberOfSwords = 2;
+		}
+
+		System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
+
+		return numberOfSwords;
+
+	}
+
+	public int roll(int numberOfRolls) {
+
+		int result = 0; // ist das gleiche wie -> int result;
+
+		for (int i = 0; i < numberOfRolls; i = i + 1) {
+			result = result + roll();
+		}
+
+		return result;
+	}
+
+}
