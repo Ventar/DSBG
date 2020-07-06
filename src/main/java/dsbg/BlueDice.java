@@ -25,7 +25,8 @@ public class BlueDice {
 			numberOfSwords = 3;
 		}
 
-		System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
+		// System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::=
+		// [" + numberOfSwords + "]");
 
 		return numberOfSwords;
 	}

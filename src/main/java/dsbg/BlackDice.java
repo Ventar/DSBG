@@ -27,7 +27,7 @@ public class BlackDice {
 			numberOfSwords = 2;
 		}
 
-		System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
+		// System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
 
 		return numberOfSwords;
 

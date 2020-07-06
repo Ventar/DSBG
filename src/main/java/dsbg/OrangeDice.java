@@ -29,7 +29,7 @@ public class OrangeDice {
 			numberOfSwords = 4;
 		}
 
-		System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
+//		System.out.println("Dice value ::= [" + dicevalue + "], Number of Swords ::= [" + numberOfSwords + "]");
 
 		return numberOfSwords;
 	}
