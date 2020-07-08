@@ -19,7 +19,7 @@ public class DiceMain {
 		System.out.print("Wie viele Orangene Würfel soll ich werfen: ");
 		int orangeDiceinput = inputScanner.nextInt();
 
-		int numberOfRolledSwords = blackDice.roll(blackDiceInput) + blueDice.roll(blueDiceInput) + orangeDice.roll(orangeDiceinput);2
+		int numberOfRolledSwords = blackDice.roll(blackDiceInput) + blueDice.roll(blueDiceInput) + orangeDice.roll(orangeDiceinput);
 
 		System.out.print("Wie viele Schwerter soll ich abziehen: ");
 		int totalSub = inputScanner.nextInt();
